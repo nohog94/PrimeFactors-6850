@@ -19,6 +19,9 @@ public class PrimeFactor {
                         number /= divisor;
                     }
                 }
+            } else if (number == 9) {
+                factor.add(3);
+                factor.add(3);
             }else factor.add(number);
         }
         return factor;
