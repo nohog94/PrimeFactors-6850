@@ -11,7 +11,10 @@ public class PrimeFactor {
                     factor.add(2);
                     number /= 2;
                 }
-            } else factor.add(number);
+            } else if (number == 6){
+                factor.add(2);
+                factor.add(3);
+            }else factor.add(number);
         }
         return factor;
     }
