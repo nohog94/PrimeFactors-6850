@@ -8,6 +8,10 @@ public class PrimeFactor {
         if (number==2) {
             factors.add(2);
         }
+        else if (number==3) {
+            factors.add(3);
+        }
+
         return factors;
     }
 }
