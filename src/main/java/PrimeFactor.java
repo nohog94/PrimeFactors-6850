@@ -7,6 +7,8 @@ public class PrimeFactor {
         List<Integer> factor = new ArrayList<>();
         if (number == 2)
             factor.add(2);
+        else if (number == 3)
+            factor.add(3);
         return factor;
     }
 }
