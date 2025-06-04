@@ -5,10 +5,8 @@ public class PrimeFactor {
 
     public List<Integer> of(int number) {
         List<Integer> factor = new ArrayList<>();
-        if (number == 2)
-            factor.add(2);
-        else if (number == 3)
-            factor.add(3);
+        if (number > 1)
+            factor.add(number);
         return factor;
     }
 }
